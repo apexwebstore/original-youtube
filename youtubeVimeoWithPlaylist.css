@@ -133,7 +133,13 @@ skins available:
 	height:90px;
 }
 
-
+/* Override ONLY when image src contains hqdefault.jpg */
+.youtubeVimeoWithPlaylist.default .thumbsHolder_ThumbOFF img[src*="hqdefault.jpg"] {
+	width: 150px !important;
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
 
 
 /*  scroller start */
@@ -418,4 +424,5 @@ skins available:
 .hideElement {
 	display:none;
 }
+
 
