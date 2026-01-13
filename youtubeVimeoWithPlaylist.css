@@ -129,7 +129,7 @@ skins available:
 	position:relative;
 	float:left;
 	margin-right:10px;
-	width:150px ! important;
+	width:235px ! important;
 	height:90px;
 }
 
@@ -418,3 +418,4 @@ skins available:
 .hideElement {
 	display:none;
 }
+
